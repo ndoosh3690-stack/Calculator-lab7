@@ -12,8 +12,12 @@ private Calculator calculator;
 
     public int makeSubtraction(int a, int b) {
         return calculator.subtract(a, b);
-  }  
+    }  
     public int makeMultiplication(int a, int b) {
         return calculator.multiply(a, b);
+    }
+
+    public int makeDivision(int a, int b) {
+        return calculator.divide(a, b);
     }
 }
